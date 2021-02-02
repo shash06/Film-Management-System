@@ -1,0 +1,11 @@
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_DAL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_DAL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_Entity.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_Entity.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\obj\Debug\FMS_DAL.csprojAssemblyReference.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\obj\Debug\FMS_DAL.csproj.CoreCompileInputs.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\obj\Debug\FMS_DAL.csproj.CopyComplete
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\obj\Debug\FMS_DAL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\obj\Debug\FMS_DAL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_DAL\bin\Debug\FMS_Exception.pdb

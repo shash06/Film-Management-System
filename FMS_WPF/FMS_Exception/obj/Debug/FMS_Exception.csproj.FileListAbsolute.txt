@@ -1,0 +1,16 @@
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_Exception\bin\Debug\FMS_Exception.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_Exception\bin\Debug\FMS_Exception.pdb
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.pdb
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.csprojAssemblyReference.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\bin\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\bin\Debug\FMS_Exception.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.csprojAssemblyReference.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.csproj.CoreCompileInputs.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_Exception\obj\Debug\FMS_Exception.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_Exception\bin\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_Exception\bin\Debug\FMS_Exception.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_Exception\obj\Debug\FMS_Exception.csproj.CoreCompileInputs.cache
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_Exception\obj\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_Exception\obj\Debug\FMS_Exception.pdb

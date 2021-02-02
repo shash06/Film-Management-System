@@ -1,0 +1,57 @@
+﻿<Page x:Class="FMS_PLL.EditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FMS_PLL"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditPage">
+
+    <Grid Background="White">
+        <Label Name="lblTitle" Content="Title" Margin="270,16,0,0" Width="35" Height="33" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Name="lblDescription" Content="Description" Margin="56,79,0,0" Width="96" Height="33" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Name="lblReleaseYear" Content="Release Year" Margin="56,161,0,0" Width="96" Height="34" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Name="lblActors" Content="Cast" Margin="56,210,0,0" Width="96" Height="34" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Name="lblRating" Content="Rating" Margin="56,269,0,0" Width="96" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Name="lblCategory" Content="Genre" HorizontalAlignment="Left" Margin="448,70,0,0" VerticalAlignment="Top" Width="103" Height="30"/>
+        <Label Name="lblLanguage" Content="Language" HorizontalAlignment="Left" Margin="448,153,0,0" VerticalAlignment="Top" Width="103" Height="30"/>
+        <Label Name="lblLength" Content="Runtime" HorizontalAlignment="Left" Margin="55,311,0,0" VerticalAlignment="Top" Width="120" Height="30"/>
+
+        <TextBox Name="txtTitle" Height="22" Margin="310,20,0,0" Width="190" VerticalAlignment="Top" HorizontalAlignment="Left" IsReadOnly="True" />
+        <TextBox Name="txtDescription" Height="75" Margin="169,72,0,0" Width="191" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBox Name="txtReleaseYear" TextWrapping="Wrap" Height="20" Margin="169,164,0,0" Width="35" VerticalAlignment="Top" HorizontalAlignment="Left" MaxLength="4"/>
+        <TextBox Name="txtActors" TextWrapping="Wrap" Height="50" Margin="169,203,0,0" Width="191" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox Name="txtRating" Height="20" Margin="169,272,0,0" Width="25" VerticalAlignment="Top" HorizontalAlignment="Left" MaxLength="3" />
+        <Label Content="/ 10" Height="29" Margin="199,268,0,0" Width="35" VerticalAlignment="Top" HorizontalAlignment="Left" />
+
+
+
+        <TextBox Name="txtLength" HorizontalAlignment="Left" Height="20" Margin="170,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" MaxLength="3"/>
+        <Label Content="minutes" HorizontalAlignment="Left" Height="30" Margin="199,312,0,0" VerticalAlignment="Top" Width="56"/>
+        <Label x:Name="lblRentalDuration" Content="Rental Duration" HorizontalAlignment="Left" Margin="448,222,0,0" VerticalAlignment="Top" Width="120" Height="31" />
+        <Label x:Name="lblRentalRate" Content="Rental Rate" HorizontalAlignment="Left" Margin="448,268,0,0" VerticalAlignment="Top" Width="103" Height="30" />
+        <Label x:Name="lblReplacementCost" Content="Replacement Cost" HorizontalAlignment="Left" Margin="448,311,0,0" VerticalAlignment="Top" Width="133" Height="31"/>
+        <TextBox x:Name="txtRentalDuration" HorizontalAlignment="Left" Height="20" Margin="586,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" MaxLength="3" />
+        <Label Content="days" HorizontalAlignment="Left" Height="31" Margin="616,219,0,0" VerticalAlignment="Top" Width="41" />
+        <Label Content="Rs" HorizontalAlignment="Left" Height="30" Margin="581,264,0,0" VerticalAlignment="Top" Width="38" />
+        <TextBox x:Name="txtRentalRate" HorizontalAlignment="Left" Height="20" Margin="604,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" MaxLength="5"/>
+        <Label Content="Rs" HorizontalAlignment="Left" Height="30" Margin="583,310,0,0" VerticalAlignment="Top" Width="40" />
+        <TextBox x:Name="txtReplacementCost" HorizontalAlignment="Left" Height="20" Margin="606,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" MaxLength="5"/>
+        <ListBox Name="lboxCategory" HorizontalAlignment="Left" Height="62" Margin="585,70,0,0" VerticalAlignment="Top" Width="150" ItemsSource="{Binding}" DataContext="{Binding}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox IsChecked="{Binding IsSelected}" Content="{Binding TheText}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox Name="lboxLanguage" HorizontalAlignment="Left" Height="42" Margin="585,153,0,0" VerticalAlignment="Top" Width="150" ItemsSource="{Binding}" DataContext="{Binding}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <CheckBox IsChecked="{Binding IsSelected}" Content="{Binding TheText}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Page>

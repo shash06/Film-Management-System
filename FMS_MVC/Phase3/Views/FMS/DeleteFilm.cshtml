@@ -1,0 +1,98 @@
+﻿@model Phase3.Models.Film
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Remove Film</title>
+</head>
+<body style="background-color:lightskyblue">
+    <div style="background-color:royalblue">
+        <br /><h1>&nbsp;Film Management System</h1>
+        <br />
+    </div>
+
+    <div>
+        <br />&nbsp;
+        @Html.ActionLink("Back to Film List", "FilmList")
+        <h3 align="center">Are You Sure You Want To Delete This?</h3>
+    </div>
+
+    <form method="post">
+        <div>
+            <table border="0" align="center" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>Title</td>
+                    <td>@Model.Title</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>@Model.Description</td>
+                </tr>
+                <tr>
+                    <td>Release Year</td>
+                    <td>@Model.Release_Year</td>
+                </tr>
+                <tr>
+                    <td>Cast</td>
+                    <td>@Model.Actors</td>
+                </tr>
+                <tr>
+                    <td>Genre</td>
+                    <td>@Model.Category</td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>@Model.Language</td>
+                </tr>
+                @if (Model.Rating.HasValue)
+                {
+                    <tr>
+                        <td>Rating</td>
+                        <td>@Model.Rating / 10</td>
+                    </tr>
+                }
+                @if (Model.Length.HasValue)
+                {
+                    <tr>
+                        <td>Runtime</td>
+                        <td>@Model.Length  minutes</td>
+                    </tr>
+                }
+                @if (Model.Rental_Duration.HasValue)
+                {
+                    <tr>
+                        <td>Rental Duration</td>
+                        <td>@Model.Rental_Duration  days</td>
+                    </tr>
+                }
+                @if (Model.Rental_Rate.HasValue)
+                {
+                    <tr>
+                        <td>Rental Rate</td>
+                        <td>Rs @Model.Rental_Rate</td>
+                    </tr>
+                }
+                @if (Model.Replacement_Cost.HasValue)
+                {
+                    <tr>
+                        <td>Replacement Cost</td>
+                        <td>Rs @Model.Replacement_Cost</td>
+                    </tr>
+                }
+                </table>
+
+        </div>
+
+        <div align="center">
+            <br />
+            <input type="submit" value="Delete Film" class="btn btn-default" />
+        </div>
+    </form>
+</body>
+</html>

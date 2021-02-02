@@ -1,0 +1,36 @@
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.csprojAssemblyReference.cache
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_BLL.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_BLL.pdb
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Entity.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Exception.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Entity.pdb
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Exception.pdb
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.csproj.CopyComplete
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.dll
+C:\SHASHWAT RASTOGI\GLC-G101\M5\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_BLL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_BLL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Entity.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Entity.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_Exception.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.csprojAssemblyReference.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.csproj.CoreCompileInputs.cache
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.csproj.CopyComplete
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\obj\Debug\FMS_BLL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_DAL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase1\FMS_BLL\bin\Debug\FMS_DAL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_BLL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_BLL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_DAL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_Entity.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_Exception.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_DAL.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_Entity.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\bin\Debug\FMS_Exception.pdb
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\obj\Debug\FMS_BLL.csprojAssemblyReference.cache
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\obj\Debug\FMS_BLL.csproj.CoreCompileInputs.cache
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\obj\Debug\FMS_BLL.csproj.CopyComplete
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\obj\Debug\FMS_BLL.dll
+E:\VASU\Parallel Project\Parallel Project\Phase2\FMS_BLL\obj\Debug\FMS_BLL.pdb

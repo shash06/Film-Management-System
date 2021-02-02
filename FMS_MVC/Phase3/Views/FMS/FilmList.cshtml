@@ -1,0 +1,80 @@
+﻿@using Phase3.Models;
+@model IEnumerable<Film>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FilmList</title>
+</head>
+<body style="background-color:lightskyblue">
+    <div style="background-color:royalblue">
+        <br/><h1>&nbsp;Film Management System</h1>
+        <br/>
+    </div>
+
+    <div>
+        <br />&nbsp;
+        @Html.ActionLink("New Film", "AddFilm")
+
+        <div align="center">
+            @using (Html.BeginForm("FilmList", "FMS", FormMethod.Get))
+            {
+                @Html.Label("Title  ")
+                @Html.TextBox("title")
+                @Html.Label("  Rating  ")
+                @Html.TextBox("rating")
+                @Html.Label("  Release Year   ")
+                @Html.TextBox("releaseYear")
+                <input type="submit" value="Search" class="btn btn-default" /><br /><br />
+            }
+        </div>
+
+        <table class="table" border="1">
+            <thead style="background-color:rebeccapurple">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Release Year</th>
+                    <th>Cast</th>
+                    <th>Genre</th>
+                    <th>Language</th>
+                    <th>Rating (/10)</th>
+                    <th>Runtime (minutes)</th>
+                    <th>Rental Duration (days)</th>
+                    <th>Rental Rate (Rs)</th>
+                    <th>Replacement Cost (Rs)</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody style="background-color:aliceblue">
+                @foreach (Film item in Model)
+                {
+                <tr>
+                    <td align="center">@item.Title</td>
+                    <td>@item.Description</td>
+                    <td align="center">@item.Release_Year</td>
+                    <td>@item.Actors</td>
+                    <td>@item.Category</td>
+                    <td>@item.Language</td>
+                    <td align="center">@item.Rating</td>
+                    <td align="center">@item.Length</td>
+                    <td align="center">@item.Rental_Duration</td>
+                    <td align="center">@item.Rental_Rate</td>
+                    <td align="center">@item.Replacement_Cost</td>
+                    <td>
+                        @Html.ActionLink("Modify", "EditFilm", new { id = item.Film_ID }) |
+                        @*@Html.ActionLink("Details", "Details", new { id = item.Film_ID }) |*@
+                        @Html.ActionLink("Delete", "DeleteFilm", new { id = item.Film_ID })
+                    </td>
+                </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+</body>
+</html>

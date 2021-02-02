@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Film">
+    <Key>
+      <PropertyRef Name="Film_ID" />
+    </Key>
+    <Property Name="Film_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Release_Year" Type="Int32" Nullable="false" />
+    <Property Name="Rental_Duration" Type="Int32" />
+    <Property Name="Rental_Rate" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="Length" Type="Int32" />
+    <Property Name="Replacement_Cost" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="Rating" Type="Decimal" Precision="3" Scale="1" />
+    <Property Name="Actors" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Language" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="MyDatabase" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Films" EntityType="Self.Film" />
+  </EntityContainer>
+</Schema>
